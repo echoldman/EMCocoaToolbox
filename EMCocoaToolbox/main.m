@@ -2,20 +2,32 @@
 //  main.m
 //  EMCocoaToolbox
 //
-//  Created by 董 斌 on 13-1-22.
+//  Created by Echoldman on 13-1-22.
 //  Copyright (c) 2013年 echold.com. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
+#import "../NSObjectCategory/NSObjectCategory.h"
 
 int main(int argc, const char * argv[])
 {
 
     @autoreleasepool {
         
-        // insert code here...
-        NSLog(@"Hello, World!");
+        id str = @"Hello, Cocoa!";
+        if ([NSObject notNil:str forClass:[NSString class]]) {
+            NSLog(@"Object 'str' is a NSString.");
+        }
+        else {
+            NSLog(@"Object 'str' isn't a NSString!");
+        }
         
+        if ([NSObject notNil:str forClass:[NSNumber class]]) {
+            NSLog(@"Object 'str' is a NSNumber.");
+        }
+        else {
+            NSLog(@"Object 'str' isn't a NSNumber!");
+        }
     }
     return 0;
 }

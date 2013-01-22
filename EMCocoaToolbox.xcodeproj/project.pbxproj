@@ -10,6 +10,7 @@
 		98657C5616AEE8B200D05C69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98657C5516AEE8B200D05C69 /* Foundation.framework */; };
 		98657C5916AEE8B200D05C69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98657C5816AEE8B200D05C69 /* main.m */; };
 		98657C5D16AEE8B200D05C69 /* EMCocoaToolbox.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 98657C5C16AEE8B200D05C69 /* EMCocoaToolbox.1 */; };
+		98657C6A16AEE98700D05C69 /* NSObject+notNilForClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 98657C6916AEE98700D05C69 /* NSObject+notNilForClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,9 @@
 		98657C5816AEE8B200D05C69 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		98657C5B16AEE8B200D05C69 /* EMCocoaToolbox-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EMCocoaToolbox-Prefix.pch"; sourceTree = "<group>"; };
 		98657C5C16AEE8B200D05C69 /* EMCocoaToolbox.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = EMCocoaToolbox.1; sourceTree = "<group>"; };
+		98657C6816AEE98700D05C69 /* NSObject+notNilForClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+notNilForClass.h"; sourceTree = "<group>"; };
+		98657C6916AEE98700D05C69 /* NSObject+notNilForClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+notNilForClass.m"; sourceTree = "<group>"; };
+		98657C6C16AEE99E00D05C69 /* NSObjectCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSObjectCategory.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +52,7 @@
 		98657C4616AEE8B200D05C69 = {
 			isa = PBXGroup;
 			children = (
+				98657C6716AEE98700D05C69 /* NSObjectCategory */,
 				98657C5716AEE8B200D05C69 /* EMCocoaToolbox */,
 				98657C5416AEE8B200D05C69 /* Frameworks */,
 				98657C5216AEE8B200D05C69 /* Products */,
@@ -86,6 +91,16 @@
 				98657C5B16AEE8B200D05C69 /* EMCocoaToolbox-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		98657C6716AEE98700D05C69 /* NSObjectCategory */ = {
+			isa = PBXGroup;
+			children = (
+				98657C6816AEE98700D05C69 /* NSObject+notNilForClass.h */,
+				98657C6C16AEE99E00D05C69 /* NSObjectCategory.h */,
+				98657C6916AEE98700D05C69 /* NSObject+notNilForClass.m */,
+			);
+			path = NSObjectCategory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				98657C5916AEE8B200D05C69 /* main.m in Sources */,
+				98657C6A16AEE98700D05C69 /* NSObject+notNilForClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,6 +250,7 @@
 				98657C6216AEE8B200D05C69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
