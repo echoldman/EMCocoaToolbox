@@ -1,0 +1,8 @@
+
+*.xcuserstate
+
+*.xcworkspacedata
+
+*.xcscheme
+
+EMCocoaToolbox.xcodeproj/xcuserdata/toubin.xcuserdatad/xcschemes/xcschememanagement.plist
