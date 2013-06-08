@@ -20,6 +20,9 @@
             [data release];
             return result;
         }
+        else{
+            [data release];
+        }
     }
     
     return nil;
@@ -36,6 +39,9 @@
             [unarchiver release];
             [data release];
             return result;
+        }
+        else{
+            [data release];
         }
     }
     

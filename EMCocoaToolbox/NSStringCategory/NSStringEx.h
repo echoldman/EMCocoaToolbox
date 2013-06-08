@@ -7,7 +7,6 @@
 #ifndef _NSStringEx_H_
 #define _NSStringEx_H_
 
-#import "NSString+Emtry.h"
 #import "NSString+FileName.h"
 #import "NSString+UTF8.h"
 #import "NSString+MD5.h"

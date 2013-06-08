@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FE72E69176329DA00994A18 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE72E68176329DA00994A18 /* UIKit.framework */; };
+		2FE72E6B176329DA00994A18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE72E6A176329DA00994A18 /* Foundation.framework */; };
+		2FE72E6D176329DA00994A18 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE72E6C176329DA00994A18 /* CoreGraphics.framework */; };
+		2FE72E73176329DA00994A18 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2FE72E71176329DA00994A18 /* InfoPlist.strings */; };
+		2FE72E75176329DA00994A18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE72E74176329DA00994A18 /* main.m */; };
+		2FE72E79176329DA00994A18 /* EMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE72E78176329DA00994A18 /* EMAppDelegate.m */; };
+		2FE72E7B176329DB00994A18 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FE72E7A176329DA00994A18 /* Default.png */; };
+		2FE72E7D176329DB00994A18 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FE72E7C176329DB00994A18 /* Default@2x.png */; };
+		2FE72E7F176329DB00994A18 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FE72E7E176329DB00994A18 /* Default-568h@2x.png */; };
+		2FE72E87176329DB00994A18 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE72E86176329DB00994A18 /* SenTestingKit.framework */; };
+		2FE72E88176329DB00994A18 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE72E68176329DA00994A18 /* UIKit.framework */; };
+		2FE72E89176329DB00994A18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE72E6A176329DA00994A18 /* Foundation.framework */; };
+		2FE72E91176329DB00994A18 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2FE72E8F176329DB00994A18 /* InfoPlist.strings */; };
+		2FE72E94176329DB00994A18 /* EMCocoaToolbox_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE72E93176329DB00994A18 /* EMCocoaToolbox_DemoTests.m */; };
+		2FE72EBF17632A0D00994A18 /* NSData+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE72EA017632A0D00994A18 /* NSData+MD5.m */; };
+		2FE72EC017632A0D00994A18 /* NSData+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE72EA017632A0D00994A18 /* NSData+MD5.m */; };
+		2FE72EC117632A0D00994A18 /* NSDictionary+Store.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE72EA417632A0D00994A18 /* NSDictionary+Store.m */; };
+		2FE72EC217632A0D00994A18 /* NSDictionary+Store.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE72EA417632A0D00994A18 /* NSDictionary+Store.m */; };
+		2FE72EC317632A0D00994A18 /* NSFileManager+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE72EA817632A0D00994A18 /* NSFileManager+Extensions.m */; };
+		2FE72EC417632A0D00994A18 /* NSFileManager+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE72EA817632A0D00994A18 /* NSFileManager+Extensions.m */; };
+		2FE72EC517632A0D00994A18 /* NSNumber+RandomNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE72EAC17632A0D00994A18 /* NSNumber+RandomNumber.m */; };
+		2FE72EC617632A0D00994A18 /* NSNumber+RandomNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE72EAC17632A0D00994A18 /* NSNumber+RandomNumber.m */; };
+		2FE72EC717632A0D00994A18 /* NSObject+Valid.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE72EB017632A0D00994A18 /* NSObject+Valid.m */; };
+		2FE72EC817632A0D00994A18 /* NSObject+Valid.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE72EB017632A0D00994A18 /* NSObject+Valid.m */; };
+		2FE72EC917632A0D00994A18 /* NSString+Equal.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE72EB417632A0D00994A18 /* NSString+Equal.m */; };
+		2FE72ECA17632A0D00994A18 /* NSString+Equal.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE72EB417632A0D00994A18 /* NSString+Equal.m */; };
+		2FE72ECB17632A0D00994A18 /* NSString+FileName.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE72EB617632A0D00994A18 /* NSString+FileName.m */; };
+		2FE72ECC17632A0D00994A18 /* NSString+FileName.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE72EB617632A0D00994A18 /* NSString+FileName.m */; };
+		2FE72ECD17632A0D00994A18 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE72EB817632A0D00994A18 /* NSString+MD5.m */; };
+		2FE72ECE17632A0D00994A18 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE72EB817632A0D00994A18 /* NSString+MD5.m */; };
+		2FE72ECF17632A0D00994A18 /* NSString+UTF8.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE72EBA17632A0D00994A18 /* NSString+UTF8.m */; };
+		2FE72ED017632A0D00994A18 /* NSString+UTF8.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE72EBA17632A0D00994A18 /* NSString+UTF8.m */; };
+		2FE72ED117632A0D00994A18 /* NSTimer+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE72EBE17632A0D00994A18 /* NSTimer+Block.m */; };
+		2FE72ED217632A0D00994A18 /* NSTimer+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE72EBE17632A0D00994A18 /* NSTimer+Block.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2FE72E8A176329DB00994A18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FE72E5D176329DA00994A18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FE72E64176329DA00994A18;
+			remoteInfo = EMCocoaToolbox_Demo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2FE72E65176329DA00994A18 /* EMCocoaToolbox_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EMCocoaToolbox_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FE72E68176329DA00994A18 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2FE72E6A176329DA00994A18 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2FE72E6C176329DA00994A18 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2FE72E70176329DA00994A18 /* EMCocoaToolbox_Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EMCocoaToolbox_Demo-Info.plist"; sourceTree = "<group>"; };
+		2FE72E72176329DA00994A18 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2FE72E74176329DA00994A18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2FE72E76176329DA00994A18 /* EMCocoaToolbox_Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EMCocoaToolbox_Demo-Prefix.pch"; sourceTree = "<group>"; };
+		2FE72E77176329DA00994A18 /* EMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMAppDelegate.h; sourceTree = "<group>"; };
+		2FE72E78176329DA00994A18 /* EMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EMAppDelegate.m; sourceTree = "<group>"; };
+		2FE72E7A176329DA00994A18 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		2FE72E7C176329DB00994A18 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		2FE72E7E176329DB00994A18 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2FE72E85176329DB00994A18 /* EMCocoaToolbox_DemoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EMCocoaToolbox_DemoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FE72E86176329DB00994A18 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		2FE72E8E176329DB00994A18 /* EMCocoaToolbox_DemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EMCocoaToolbox_DemoTests-Info.plist"; sourceTree = "<group>"; };
+		2FE72E90176329DB00994A18 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2FE72E92176329DB00994A18 /* EMCocoaToolbox_DemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMCocoaToolbox_DemoTests.h; sourceTree = "<group>"; };
+		2FE72E93176329DB00994A18 /* EMCocoaToolbox_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EMCocoaToolbox_DemoTests.m; sourceTree = "<group>"; };
+		2FE72E9F17632A0D00994A18 /* NSData+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+MD5.h"; sourceTree = "<group>"; };
+		2FE72EA017632A0D00994A18 /* NSData+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+MD5.m"; sourceTree = "<group>"; };
+		2FE72EA117632A0D00994A18 /* NSDataEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDataEx.h; sourceTree = "<group>"; };
+		2FE72EA317632A0D00994A18 /* NSDictionary+Store.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Store.h"; sourceTree = "<group>"; };
+		2FE72EA417632A0D00994A18 /* NSDictionary+Store.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Store.m"; sourceTree = "<group>"; };
+		2FE72EA517632A0D00994A18 /* NSDictionaryEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDictionaryEx.h; sourceTree = "<group>"; };
+		2FE72EA717632A0D00994A18 /* NSFileManager+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+Extensions.h"; sourceTree = "<group>"; };
+		2FE72EA817632A0D00994A18 /* NSFileManager+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+Extensions.m"; sourceTree = "<group>"; };
+		2FE72EA917632A0D00994A18 /* NSFileManagerEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSFileManagerEx.h; sourceTree = "<group>"; };
+		2FE72EAB17632A0D00994A18 /* NSNumber+RandomNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+RandomNumber.h"; sourceTree = "<group>"; };
+		2FE72EAC17632A0D00994A18 /* NSNumber+RandomNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+RandomNumber.m"; sourceTree = "<group>"; };
+		2FE72EAD17632A0D00994A18 /* NSNumberEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSNumberEx.h; sourceTree = "<group>"; };
+		2FE72EAF17632A0D00994A18 /* NSObject+Valid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Valid.h"; sourceTree = "<group>"; };
+		2FE72EB017632A0D00994A18 /* NSObject+Valid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Valid.m"; sourceTree = "<group>"; };
+		2FE72EB117632A0D00994A18 /* NSObjectEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSObjectEx.h; sourceTree = "<group>"; };
+		2FE72EB317632A0D00994A18 /* NSString+Equal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Equal.h"; sourceTree = "<group>"; };
+		2FE72EB417632A0D00994A18 /* NSString+Equal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Equal.m"; sourceTree = "<group>"; };
+		2FE72EB517632A0D00994A18 /* NSString+FileName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FileName.h"; sourceTree = "<group>"; };
+		2FE72EB617632A0D00994A18 /* NSString+FileName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FileName.m"; sourceTree = "<group>"; };
+		2FE72EB717632A0D00994A18 /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		2FE72EB817632A0D00994A18 /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		2FE72EB917632A0D00994A18 /* NSString+UTF8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+UTF8.h"; sourceTree = "<group>"; };
+		2FE72EBA17632A0D00994A18 /* NSString+UTF8.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+UTF8.m"; sourceTree = "<group>"; };
+		2FE72EBB17632A0D00994A18 /* NSStringEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStringEx.h; sourceTree = "<group>"; };
+		2FE72EBD17632A0D00994A18 /* NSTimer+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Block.h"; sourceTree = "<group>"; };
+		2FE72EBE17632A0D00994A18 /* NSTimer+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Block.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FE72E62176329DA00994A18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FE72E69176329DA00994A18 /* UIKit.framework in Frameworks */,
+				2FE72E6B176329DA00994A18 /* Foundation.framework in Frameworks */,
+				2FE72E6D176329DA00994A18 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FE72E81176329DB00994A18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FE72E87176329DB00994A18 /* SenTestingKit.framework in Frameworks */,
+				2FE72E88176329DB00994A18 /* UIKit.framework in Frameworks */,
+				2FE72E89176329DB00994A18 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FE72E5C176329DA00994A18 = {
+			isa = PBXGroup;
+			children = (
+				2FE72E9D17632A0D00994A18 /* EMCocoaToolbox */,
+				2FE72E6E176329DA00994A18 /* EMCocoaToolbox_Demo */,
+				2FE72E8C176329DB00994A18 /* EMCocoaToolbox_DemoTests */,
+				2FE72E67176329DA00994A18 /* Frameworks */,
+				2FE72E66176329DA00994A18 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2FE72E66176329DA00994A18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FE72E65176329DA00994A18 /* EMCocoaToolbox_Demo.app */,
+				2FE72E85176329DB00994A18 /* EMCocoaToolbox_DemoTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FE72E67176329DA00994A18 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2FE72E68176329DA00994A18 /* UIKit.framework */,
+				2FE72E6A176329DA00994A18 /* Foundation.framework */,
+				2FE72E6C176329DA00994A18 /* CoreGraphics.framework */,
+				2FE72E86176329DB00994A18 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2FE72E6E176329DA00994A18 /* EMCocoaToolbox_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				2FE72E77176329DA00994A18 /* EMAppDelegate.h */,
+				2FE72E78176329DA00994A18 /* EMAppDelegate.m */,
+				2FE72E6F176329DA00994A18 /* Supporting Files */,
+			);
+			path = EMCocoaToolbox_Demo;
+			sourceTree = "<group>";
+		};
+		2FE72E6F176329DA00994A18 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FE72E70176329DA00994A18 /* EMCocoaToolbox_Demo-Info.plist */,
+				2FE72E71176329DA00994A18 /* InfoPlist.strings */,
+				2FE72E74176329DA00994A18 /* main.m */,
+				2FE72E76176329DA00994A18 /* EMCocoaToolbox_Demo-Prefix.pch */,
+				2FE72E7A176329DA00994A18 /* Default.png */,
+				2FE72E7C176329DB00994A18 /* Default@2x.png */,
+				2FE72E7E176329DB00994A18 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2FE72E8C176329DB00994A18 /* EMCocoaToolbox_DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				2FE72E92176329DB00994A18 /* EMCocoaToolbox_DemoTests.h */,
+				2FE72E93176329DB00994A18 /* EMCocoaToolbox_DemoTests.m */,
+				2FE72E8D176329DB00994A18 /* Supporting Files */,
+			);
+			path = EMCocoaToolbox_DemoTests;
+			sourceTree = "<group>";
+		};
+		2FE72E8D176329DB00994A18 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FE72E8E176329DB00994A18 /* EMCocoaToolbox_DemoTests-Info.plist */,
+				2FE72E8F176329DB00994A18 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2FE72E9D17632A0D00994A18 /* EMCocoaToolbox */ = {
+			isa = PBXGroup;
+			children = (
+				2FE72E9E17632A0D00994A18 /* NSDataCategory */,
+				2FE72EA217632A0D00994A18 /* NSDictionaryCategory */,
+				2FE72EA617632A0D00994A18 /* NSFileManagerCategory */,
+				2FE72EAA17632A0D00994A18 /* NSNumberCategory */,
+				2FE72EAE17632A0D00994A18 /* NSObjectCategory */,
+				2FE72EB217632A0D00994A18 /* NSStringCategory */,
+				2FE72EBC17632A0D00994A18 /* NSTimerCategory */,
+			);
+			path = EMCocoaToolbox;
+			sourceTree = "<group>";
+		};
+		2FE72E9E17632A0D00994A18 /* NSDataCategory */ = {
+			isa = PBXGroup;
+			children = (
+				2FE72E9F17632A0D00994A18 /* NSData+MD5.h */,
+				2FE72EA017632A0D00994A18 /* NSData+MD5.m */,
+				2FE72EA117632A0D00994A18 /* NSDataEx.h */,
+			);
+			path = NSDataCategory;
+			sourceTree = "<group>";
+		};
+		2FE72EA217632A0D00994A18 /* NSDictionaryCategory */ = {
+			isa = PBXGroup;
+			children = (
+				2FE72EA317632A0D00994A18 /* NSDictionary+Store.h */,
+				2FE72EA417632A0D00994A18 /* NSDictionary+Store.m */,
+				2FE72EA517632A0D00994A18 /* NSDictionaryEx.h */,
+			);
+			path = NSDictionaryCategory;
+			sourceTree = "<group>";
+		};
+		2FE72EA617632A0D00994A18 /* NSFileManagerCategory */ = {
+			isa = PBXGroup;
+			children = (
+				2FE72EA717632A0D00994A18 /* NSFileManager+Extensions.h */,
+				2FE72EA817632A0D00994A18 /* NSFileManager+Extensions.m */,
+				2FE72EA917632A0D00994A18 /* NSFileManagerEx.h */,
+			);
+			path = NSFileManagerCategory;
+			sourceTree = "<group>";
+		};
+		2FE72EAA17632A0D00994A18 /* NSNumberCategory */ = {
+			isa = PBXGroup;
+			children = (
+				2FE72EAB17632A0D00994A18 /* NSNumber+RandomNumber.h */,
+				2FE72EAC17632A0D00994A18 /* NSNumber+RandomNumber.m */,
+				2FE72EAD17632A0D00994A18 /* NSNumberEx.h */,
+			);
+			path = NSNumberCategory;
+			sourceTree = "<group>";
+		};
+		2FE72EAE17632A0D00994A18 /* NSObjectCategory */ = {
+			isa = PBXGroup;
+			children = (
+				2FE72EAF17632A0D00994A18 /* NSObject+Valid.h */,
+				2FE72EB017632A0D00994A18 /* NSObject+Valid.m */,
+				2FE72EB117632A0D00994A18 /* NSObjectEx.h */,
+			);
+			path = NSObjectCategory;
+			sourceTree = "<group>";
+		};
+		2FE72EB217632A0D00994A18 /* NSStringCategory */ = {
+			isa = PBXGroup;
+			children = (
+				2FE72EB317632A0D00994A18 /* NSString+Equal.h */,
+				2FE72EB417632A0D00994A18 /* NSString+Equal.m */,
+				2FE72EB517632A0D00994A18 /* NSString+FileName.h */,
+				2FE72EB617632A0D00994A18 /* NSString+FileName.m */,
+				2FE72EB717632A0D00994A18 /* NSString+MD5.h */,
+				2FE72EB817632A0D00994A18 /* NSString+MD5.m */,
+				2FE72EB917632A0D00994A18 /* NSString+UTF8.h */,
+				2FE72EBA17632A0D00994A18 /* NSString+UTF8.m */,
+				2FE72EBB17632A0D00994A18 /* NSStringEx.h */,
+			);
+			path = NSStringCategory;
+			sourceTree = "<group>";
+		};
+		2FE72EBC17632A0D00994A18 /* NSTimerCategory */ = {
+			isa = PBXGroup;
+			children = (
+				2FE72EBD17632A0D00994A18 /* NSTimer+Block.h */,
+				2FE72EBE17632A0D00994A18 /* NSTimer+Block.m */,
+			);
+			path = NSTimerCategory;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FE72E64176329DA00994A18 /* EMCocoaToolbox_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FE72E97176329DB00994A18 /* Build configuration list for PBXNativeTarget "EMCocoaToolbox_Demo" */;
+			buildPhases = (
+				2FE72E61176329DA00994A18 /* Sources */,
+				2FE72E62176329DA00994A18 /* Frameworks */,
+				2FE72E63176329DA00994A18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EMCocoaToolbox_Demo;
+			productName = EMCocoaToolbox_Demo;
+			productReference = 2FE72E65176329DA00994A18 /* EMCocoaToolbox_Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2FE72E84176329DB00994A18 /* EMCocoaToolbox_DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FE72E9A176329DB00994A18 /* Build configuration list for PBXNativeTarget "EMCocoaToolbox_DemoTests" */;
+			buildPhases = (
+				2FE72E80176329DB00994A18 /* Sources */,
+				2FE72E81176329DB00994A18 /* Frameworks */,
+				2FE72E82176329DB00994A18 /* Resources */,
+				2FE72E83176329DB00994A18 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FE72E8B176329DB00994A18 /* PBXTargetDependency */,
+			);
+			name = EMCocoaToolbox_DemoTests;
+			productName = EMCocoaToolbox_DemoTests;
+			productReference = 2FE72E85176329DB00994A18 /* EMCocoaToolbox_DemoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FE72E5D176329DA00994A18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = EM;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Echoldman;
+			};
+			buildConfigurationList = 2FE72E60176329DA00994A18 /* Build configuration list for PBXProject "EMCocoaToolbox_Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2FE72E5C176329DA00994A18;
+			productRefGroup = 2FE72E66176329DA00994A18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FE72E64176329DA00994A18 /* EMCocoaToolbox_Demo */,
+				2FE72E84176329DB00994A18 /* EMCocoaToolbox_DemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FE72E63176329DA00994A18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FE72E73176329DA00994A18 /* InfoPlist.strings in Resources */,
+				2FE72E7B176329DB00994A18 /* Default.png in Resources */,
+				2FE72E7D176329DB00994A18 /* Default@2x.png in Resources */,
+				2FE72E7F176329DB00994A18 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FE72E82176329DB00994A18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FE72E91176329DB00994A18 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2FE72E83176329DB00994A18 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FE72E61176329DA00994A18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FE72E75176329DA00994A18 /* main.m in Sources */,
+				2FE72E79176329DA00994A18 /* EMAppDelegate.m in Sources */,
+				2FE72EBF17632A0D00994A18 /* NSData+MD5.m in Sources */,
+				2FE72EC117632A0D00994A18 /* NSDictionary+Store.m in Sources */,
+				2FE72EC317632A0D00994A18 /* NSFileManager+Extensions.m in Sources */,
+				2FE72EC517632A0D00994A18 /* NSNumber+RandomNumber.m in Sources */,
+				2FE72EC717632A0D00994A18 /* NSObject+Valid.m in Sources */,
+				2FE72EC917632A0D00994A18 /* NSString+Equal.m in Sources */,
+				2FE72ECB17632A0D00994A18 /* NSString+FileName.m in Sources */,
+				2FE72ECD17632A0D00994A18 /* NSString+MD5.m in Sources */,
+				2FE72ECF17632A0D00994A18 /* NSString+UTF8.m in Sources */,
+				2FE72ED117632A0D00994A18 /* NSTimer+Block.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FE72E80176329DB00994A18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FE72E94176329DB00994A18 /* EMCocoaToolbox_DemoTests.m in Sources */,
+				2FE72EC017632A0D00994A18 /* NSData+MD5.m in Sources */,
+				2FE72EC217632A0D00994A18 /* NSDictionary+Store.m in Sources */,
+				2FE72EC417632A0D00994A18 /* NSFileManager+Extensions.m in Sources */,
+				2FE72EC617632A0D00994A18 /* NSNumber+RandomNumber.m in Sources */,
+				2FE72EC817632A0D00994A18 /* NSObject+Valid.m in Sources */,
+				2FE72ECA17632A0D00994A18 /* NSString+Equal.m in Sources */,
+				2FE72ECC17632A0D00994A18 /* NSString+FileName.m in Sources */,
+				2FE72ECE17632A0D00994A18 /* NSString+MD5.m in Sources */,
+				2FE72ED017632A0D00994A18 /* NSString+UTF8.m in Sources */,
+				2FE72ED217632A0D00994A18 /* NSTimer+Block.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2FE72E8B176329DB00994A18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FE72E64176329DA00994A18 /* EMCocoaToolbox_Demo */;
+			targetProxy = 2FE72E8A176329DB00994A18 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2FE72E71176329DA00994A18 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FE72E72176329DA00994A18 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2FE72E8F176329DB00994A18 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FE72E90176329DB00994A18 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2FE72E95176329DB00994A18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2FE72E96176329DB00994A18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FE72E98176329DB00994A18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EMCocoaToolbox_Demo/EMCocoaToolbox_Demo-Prefix.pch";
+				INFOPLIST_FILE = "EMCocoaToolbox_Demo/EMCocoaToolbox_Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2FE72E99176329DB00994A18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EMCocoaToolbox_Demo/EMCocoaToolbox_Demo-Prefix.pch";
+				INFOPLIST_FILE = "EMCocoaToolbox_Demo/EMCocoaToolbox_Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2FE72E9B176329DB00994A18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EMCocoaToolbox_Demo.app/EMCocoaToolbox_Demo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EMCocoaToolbox_Demo/EMCocoaToolbox_Demo-Prefix.pch";
+				INFOPLIST_FILE = "EMCocoaToolbox_DemoTests/EMCocoaToolbox_DemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		2FE72E9C176329DB00994A18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EMCocoaToolbox_Demo.app/EMCocoaToolbox_Demo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EMCocoaToolbox_Demo/EMCocoaToolbox_Demo-Prefix.pch";
+				INFOPLIST_FILE = "EMCocoaToolbox_DemoTests/EMCocoaToolbox_DemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FE72E60176329DA00994A18 /* Build configuration list for PBXProject "EMCocoaToolbox_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FE72E95176329DB00994A18 /* Debug */,
+				2FE72E96176329DB00994A18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FE72E97176329DB00994A18 /* Build configuration list for PBXNativeTarget "EMCocoaToolbox_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FE72E98176329DB00994A18 /* Debug */,
+				2FE72E99176329DB00994A18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FE72E9A176329DB00994A18 /* Build configuration list for PBXNativeTarget "EMCocoaToolbox_DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FE72E9B176329DB00994A18 /* Debug */,
+				2FE72E9C176329DB00994A18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FE72E5D176329DA00994A18 /* Project object */;
+}
