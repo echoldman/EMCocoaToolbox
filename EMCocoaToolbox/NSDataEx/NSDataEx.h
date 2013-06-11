@@ -4,8 +4,8 @@
 //  Created by Echoldman on 13-2-9.
 //
 
-#ifndef _NSDataEx_H_
-#define _NSDataEx_H_
+#ifndef NSDataEx_h
+#define NSDataEx_h
 
 #import "NSData+MD5.h"
 

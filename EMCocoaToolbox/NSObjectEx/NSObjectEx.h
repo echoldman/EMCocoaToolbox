@@ -4,8 +4,8 @@
 //  Created by Echoldman on 13-2-9.
 //
 
-#ifndef _NSObjectEx_H_
-#define _NSObjectEx_H_
+#ifndef NSObjectEx_h
+#define NSObjectEx_h
 
 #import "NSObject+Valid.h"
 

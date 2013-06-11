@@ -4,8 +4,8 @@
 //  Created by Echoldman on 13-2-9.
 //
 
-#ifndef _NSNumberEx_H_
-#define _NSNumberEx_H_
+#ifndef NSNumberEx_h
+#define NSNumberEx_h
 
 #import "NSNumber+RandomNumber.h"
 

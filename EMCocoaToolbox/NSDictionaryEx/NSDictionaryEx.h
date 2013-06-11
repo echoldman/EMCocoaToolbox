@@ -4,8 +4,8 @@
 //  Created by Echoldman on 13-2-15.
 //
 
-#ifndef _NSDictionaryEx_H_
-#define _NSDictionaryEx_H_
+#ifndef NSDictionaryEx_h
+#define NSDictionaryEx_h
 
 #import "NSDictionary+Store.h"
 
