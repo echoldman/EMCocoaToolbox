@@ -9,18 +9,18 @@
 @implementation NSString (Empty)
 
 + (BOOL)stringIsEmpty:(NSString *)aString_
-{    
-    if ((!aString_) && [aString_ isKindOfClass:NSString.class] && (aString_.length > 0)) {
-        return FALSE;
+{
+    if (!aString_ || ![aString_ isKindOfClass:NSString.class] || (aString_.length < 1)) {
+        return YES;
     }
     else {
-        return YES;
+        return NO;
     }
 }
 
 + (BOOL)stringisNonEmpty:(NSString *)aString_
 {
-    if ((!aString_) && [aString_ isKindOfClass:NSString.class] && (aString_.length > 0)) {
+    if (aString_ && [aString_ isKindOfClass:NSString.class] && (aString_.length > 0)) {
         return YES;
     }
     else {
