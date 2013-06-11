@@ -1,10 +1,10 @@
 
-*.xcuserstate
-
 *.xcworkspacedata
+
+*.xcuserstate
 
 *.xcscheme
 
-EMCocoaToolbox.xcodeproj/xcuserdata/toubin.xcuserdatad/xcschemes/xcschememanagement.plist
+EMCocoaToolbox_Demo.xcodeproj/xcuserdata/toubin.xcuserdatad/xcschemes/xcschememanagement.plist
 
-EMCocoaToolbox_Demo.xcodeproj/xcuserdata/chunfen.xcuserdatad/xcschemes/xcschememanagement.plist
+.DS_Store

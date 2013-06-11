@@ -41,6 +41,8 @@
 		2FE72ED017632A0D00994A18 /* NSString+UTF8.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE72EBA17632A0D00994A18 /* NSString+UTF8.m */; };
 		2FE72ED117632A0D00994A18 /* NSTimer+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE72EBE17632A0D00994A18 /* NSTimer+Block.m */; };
 		2FE72ED217632A0D00994A18 /* NSTimer+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE72EBE17632A0D00994A18 /* NSTimer+Block.m */; };
+		98E22FED1767327600115166 /* NSString+Empty.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E22FEC1767327600115166 /* NSString+Empty.m */; };
+		98E22FEE1767327600115166 /* NSString+Empty.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E22FEC1767327600115166 /* NSString+Empty.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +101,8 @@
 		2FE72EBB17632A0D00994A18 /* NSStringEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStringEx.h; sourceTree = "<group>"; };
 		2FE72EBD17632A0D00994A18 /* NSTimer+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Block.h"; sourceTree = "<group>"; };
 		2FE72EBE17632A0D00994A18 /* NSTimer+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Block.m"; sourceTree = "<group>"; };
+		98E22FEB1767327600115166 /* NSString+Empty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Empty.h"; sourceTree = "<group>"; };
+		98E22FEC1767327600115166 /* NSString+Empty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Empty.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -266,6 +270,8 @@
 		2FE72EB217632A0D00994A18 /* NSStringCategory */ = {
 			isa = PBXGroup;
 			children = (
+				98E22FEB1767327600115166 /* NSString+Empty.h */,
+				98E22FEC1767327600115166 /* NSString+Empty.m */,
 				2FE72EB317632A0D00994A18 /* NSString+Equal.h */,
 				2FE72EB417632A0D00994A18 /* NSString+Equal.m */,
 				2FE72EB517632A0D00994A18 /* NSString+FileName.h */,
@@ -410,6 +416,7 @@
 				2FE72ECD17632A0D00994A18 /* NSString+MD5.m in Sources */,
 				2FE72ECF17632A0D00994A18 /* NSString+UTF8.m in Sources */,
 				2FE72ED117632A0D00994A18 /* NSTimer+Block.m in Sources */,
+				98E22FED1767327600115166 /* NSString+Empty.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +435,7 @@
 				2FE72ECE17632A0D00994A18 /* NSString+MD5.m in Sources */,
 				2FE72ED017632A0D00994A18 /* NSString+UTF8.m in Sources */,
 				2FE72ED217632A0D00994A18 /* NSTimer+Block.m in Sources */,
+				98E22FEE1767327600115166 /* NSString+Empty.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
