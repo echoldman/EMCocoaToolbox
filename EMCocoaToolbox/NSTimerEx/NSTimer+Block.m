@@ -23,6 +23,13 @@
     return timer;
 }
 
++ (NSTimer *)scheduledTimerWithTimeInterval:(NSTimeInterval)ti_ timerBlock:(void (^)(void))timerBlock_ repeats:(BOOL)yesOrNo_
+{
+    return [self scheduledTimerWithBlock:timerBlock_
+                            timeInterval:ti_
+                                 repeats:yesOrNo_];
+}
+
 + (void)blockSelector:(NSTimer *)theTimer_
 {
     void (^block)(void) = (void (^)(void))[theTimer_ userInfo];
