@@ -109,6 +109,7 @@
 		9854F9E717675B0D006FC3C4 /* NSTimer+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Block.h"; sourceTree = "<group>"; };
 		9854F9E817675B0D006FC3C4 /* NSTimer+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Block.m"; sourceTree = "<group>"; };
 		9854F9E917675B0D006FC3C4 /* NSTimerEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSTimerEx.h; sourceTree = "<group>"; };
+		98925009179EE22F00BEB6D1 /* CGEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGEx.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,6 +213,7 @@
 		9854F9C117675B0D006FC3C4 /* EMCocoaToolbox */ = {
 			isa = PBXGroup;
 			children = (
+				98925008179EE22F00BEB6D1 /* CGEx */,
 				9854F9C217675B0D006FC3C4 /* EMAppEnvironment */,
 				9854F9C517675B0D006FC3C4 /* EMCocoaToolbox.h */,
 				9854F9C617675B0D006FC3C4 /* NSDataEx */,
@@ -310,6 +312,14 @@
 				9854F9E917675B0D006FC3C4 /* NSTimerEx.h */,
 			);
 			path = NSTimerEx;
+			sourceTree = "<group>";
+		};
+		98925008179EE22F00BEB6D1 /* CGEx */ = {
+			isa = PBXGroup;
+			children = (
+				98925009179EE22F00BEB6D1 /* CGEx.h */,
+			);
+			path = CGEx;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

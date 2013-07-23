@@ -10,3 +10,5 @@ EMCocoaToolbox_Demo.xcodeproj/xcuserdata/toubin.xcuserdatad/xcschemes/xcschemema
 .DS_Store
 xcschememanagement.plist
 .gitignore
+
+EMCocoaToolbox/.DS_Store
