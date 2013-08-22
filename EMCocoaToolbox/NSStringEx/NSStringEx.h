@@ -4,8 +4,8 @@
 //  Created by Echoldman on 12-10-4.
 //
 
-#ifndef NSStringEx_h
-#define NSStringEx_h
+#ifndef EMCocoaToolbox_NSStringEx_h
+#define EMCocoaToolbox_NSStringEx_h
 
 #import "NSString+Empty.h"
 #import "NSString+FileName.h"

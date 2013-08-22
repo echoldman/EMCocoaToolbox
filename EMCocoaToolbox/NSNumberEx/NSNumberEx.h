@@ -4,8 +4,8 @@
 //  Created by Echoldman on 13-2-9.
 //
 
-#ifndef NSNumberEx_h
-#define NSNumberEx_h
+#ifndef EMCocoaToolbox_NSNumberEx_h
+#define EMCocoaToolbox_NSNumberEx_h
 
 #import "NSNumber+RandomNumber.h"
 
