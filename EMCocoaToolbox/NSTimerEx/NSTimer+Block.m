@@ -6,14 +6,11 @@
 
 #import "NSTimer+Block.h"
 
-#define Key_TimerBlock  @"TimerBlock"
-#define Key_UserInfo    @"UserInfo"
-
 @implementation NSTimer (Block)
 
-+ (NSTimer *)scheduledTimerWithBlock:(void(^)(void))timerBlock_ timeInterval:(NSTimeInterval)ti_ repeats:(BOOL)yesOrNo_
++ (NSTimer *)scheduledTimerWithBlock:(void (^)(void))block_ timeInterval:(NSTimeInterval)ti_ repeats:(BOOL)yesOrNo_
 {
-    void (^block)(void) = [timerBlock_ copy];
+    void (^block)(void) = [block_ copy];
     NSTimer *timer = [self scheduledTimerWithTimeInterval:ti_
                                                    target:self
                                                  selector:@selector(blockSelector:)
@@ -23,9 +20,9 @@
     return timer;
 }
 
-+ (NSTimer *)scheduledTimerWithTimeInterval:(NSTimeInterval)ti_ timerBlock:(void (^)(void))timerBlock_ repeats:(BOOL)yesOrNo_
++ (NSTimer *)scheduledTimerWithTimeInterval:(NSTimeInterval)ti_ block:(void (^)(void))block_ repeats:(BOOL)yesOrNo_
 {
-    return [self scheduledTimerWithBlock:timerBlock_
+    return [self scheduledTimerWithBlock:block_
                             timeInterval:ti_
                                  repeats:yesOrNo_];
 }

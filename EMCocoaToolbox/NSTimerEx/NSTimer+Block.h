@@ -8,7 +8,7 @@
 
 @interface NSTimer (Block)
 
-+ (NSTimer *)scheduledTimerWithBlock:(void(^)(void))timerBlock timeInterval:(NSTimeInterval)ti repeats:(BOOL)yesOrNo;
-+ (NSTimer *)scheduledTimerWithTimeInterval:(NSTimeInterval)ti timerBlock:(void(^)(void))timerBlock repeats:(BOOL)yesOrNo;
++ (NSTimer *)scheduledTimerWithBlock:(void(^)(void))block timeInterval:(NSTimeInterval)ti repeats:(BOOL)yesOrNo;
++ (NSTimer *)scheduledTimerWithTimeInterval:(NSTimeInterval)ti block:(void(^)(void))block repeats:(BOOL)yesOrNo;
 
 @end
