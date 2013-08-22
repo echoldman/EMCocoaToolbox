@@ -16,5 +16,6 @@
 #import "NSObjectEx/NSObjectEx.h"
 #import "NSStringEx/NSStringEx.h"
 #import "NSTimerEx/NSTimerEx.h"
+#import "NSUserDefaultsEx/NSUserDefaultsEx.h"
 
 #endif

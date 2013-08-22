@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2FE4BA4A17C5FFF700685ADB /* NSUserDefaults+Condition.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE4BA4917C5FFF700685ADB /* NSUserDefaults+Condition.m */; };
 		2FE72E69176329DA00994A18 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE72E68176329DA00994A18 /* UIKit.framework */; };
 		2FE72E6B176329DA00994A18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE72E6A176329DA00994A18 /* Foundation.framework */; };
 		2FE72E6D176329DA00994A18 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE72E6C176329DA00994A18 /* CoreGraphics.framework */; };
@@ -58,6 +59,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2FE4BA4817C5FFF700685ADB /* NSUserDefaults+Condition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+Condition.h"; sourceTree = "<group>"; };
+		2FE4BA4917C5FFF700685ADB /* NSUserDefaults+Condition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+Condition.m"; sourceTree = "<group>"; };
+		2FE4BA4B17C6028F00685ADB /* NSUserDefaultsEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSUserDefaultsEx.h; sourceTree = "<group>"; };
 		2FE72E65176329DA00994A18 /* EMCocoaToolbox_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EMCocoaToolbox_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FE72E68176329DA00994A18 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2FE72E6A176329DA00994A18 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -136,6 +140,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2FE4BA4717C5FFF700685ADB /* NSUserDefaultsEx */ = {
+			isa = PBXGroup;
+			children = (
+				2FE4BA4817C5FFF700685ADB /* NSUserDefaults+Condition.h */,
+				2FE4BA4917C5FFF700685ADB /* NSUserDefaults+Condition.m */,
+				2FE4BA4B17C6028F00685ADB /* NSUserDefaultsEx.h */,
+			);
+			path = NSUserDefaultsEx;
+			sourceTree = "<group>";
+		};
 		2FE72E5C176329DA00994A18 = {
 			isa = PBXGroup;
 			children = (
@@ -213,9 +227,9 @@
 		9854F9C117675B0D006FC3C4 /* EMCocoaToolbox */ = {
 			isa = PBXGroup;
 			children = (
+				9854F9C517675B0D006FC3C4 /* EMCocoaToolbox.h */,
 				98925008179EE22F00BEB6D1 /* CGEx */,
 				9854F9C217675B0D006FC3C4 /* EMAppEnvironment */,
-				9854F9C517675B0D006FC3C4 /* EMCocoaToolbox.h */,
 				9854F9C617675B0D006FC3C4 /* NSDataEx */,
 				9854F9CA17675B0D006FC3C4 /* NSDictionaryEx */,
 				9854F9CE17675B0D006FC3C4 /* NSFileManagerEx */,
@@ -223,6 +237,7 @@
 				9854F9D617675B0D006FC3C4 /* NSObjectEx */,
 				9854F9DA17675B0D006FC3C4 /* NSStringEx */,
 				9854F9E617675B0D006FC3C4 /* NSTimerEx */,
+				2FE4BA4717C5FFF700685ADB /* NSUserDefaultsEx */,
 			);
 			path = EMCocoaToolbox;
 			sourceTree = "<group>";
@@ -446,6 +461,7 @@
 				9854F9FC17675B0D006FC3C4 /* NSString+MD5.m in Sources */,
 				9854F9FE17675B0D006FC3C4 /* NSString+UTF8.m in Sources */,
 				9854FA0017675B0D006FC3C4 /* NSTimer+Block.m in Sources */,
+				2FE4BA4A17C5FFF700685ADB /* NSUserDefaults+Condition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
