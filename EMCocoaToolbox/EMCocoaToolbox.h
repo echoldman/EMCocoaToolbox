@@ -4,8 +4,8 @@
 //  Created by Echoldman on 13-6-11.
 //
 
-#ifndef EMCocoaToolbox_Demo_EMCocoaToolbox_h
-#define EMCocoaToolbox_Demo_EMCocoaToolbox_h
+#ifndef EMCocoaToolbox_h
+#define EMCocoaToolbox_h
 
 #import "CGEx/CGEx.h"
 #import "EMAppEnvironment/EMAppEnvironment.h"

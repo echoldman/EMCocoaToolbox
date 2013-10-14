@@ -18,7 +18,7 @@
     }
 }
 
-+ (BOOL)stringisNonEmpty:(NSString *)aString_
++ (BOOL)stringIsNonEmpty:(NSString *)aString_
 {
     if (aString_ && [aString_ isKindOfClass:NSString.class] && (aString_.length > 0)) {
         return YES;
