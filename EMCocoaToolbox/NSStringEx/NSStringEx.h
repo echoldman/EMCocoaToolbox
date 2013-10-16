@@ -12,5 +12,6 @@
 #import "NSString+UTF8.h"
 #import "NSString+MD5.h"
 #import "NSString+Equal.h"
+#import "NSString+UUID.h"
 
 #endif

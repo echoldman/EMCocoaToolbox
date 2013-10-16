@@ -46,6 +46,7 @@
 		9854F9FF17675B0D006FC3C4 /* NSString+UTF8.m in Sources */ = {isa = PBXBuildFile; fileRef = 9854F9E417675B0D006FC3C4 /* NSString+UTF8.m */; };
 		9854FA0017675B0D006FC3C4 /* NSTimer+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 9854F9E817675B0D006FC3C4 /* NSTimer+Block.m */; };
 		9854FA0117675B0D006FC3C4 /* NSTimer+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 9854F9E817675B0D006FC3C4 /* NSTimer+Block.m */; };
+		987154F1180ED7E500BD66A5 /* NSString+UUID.m in Sources */ = {isa = PBXBuildFile; fileRef = 987154F0180ED7E500BD66A5 /* NSString+UUID.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -113,6 +114,8 @@
 		9854F9E717675B0D006FC3C4 /* NSTimer+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Block.h"; sourceTree = "<group>"; };
 		9854F9E817675B0D006FC3C4 /* NSTimer+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Block.m"; sourceTree = "<group>"; };
 		9854F9E917675B0D006FC3C4 /* NSTimerEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSTimerEx.h; sourceTree = "<group>"; };
+		987154EF180ED7E500BD66A5 /* NSString+UUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+UUID.h"; sourceTree = "<group>"; };
+		987154F0180ED7E500BD66A5 /* NSString+UUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+UUID.m"; sourceTree = "<group>"; };
 		98925009179EE22F00BEB6D1 /* CGEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGEx.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -314,6 +317,8 @@
 				9854F9E217675B0D006FC3C4 /* NSString+MD5.m */,
 				9854F9E317675B0D006FC3C4 /* NSString+UTF8.h */,
 				9854F9E417675B0D006FC3C4 /* NSString+UTF8.m */,
+				987154EF180ED7E500BD66A5 /* NSString+UUID.h */,
+				987154F0180ED7E500BD66A5 /* NSString+UUID.m */,
 				9854F9E517675B0D006FC3C4 /* NSStringEx.h */,
 			);
 			path = NSStringEx;
@@ -451,6 +456,7 @@
 				2FE72E79176329DA00994A18 /* EMAppDelegate.m in Sources */,
 				9854F9EA17675B0D006FC3C4 /* EMAppEnvironment.m in Sources */,
 				9854F9EC17675B0D006FC3C4 /* NSData+MD5.m in Sources */,
+				987154F1180ED7E500BD66A5 /* NSString+UUID.m in Sources */,
 				9854F9EE17675B0D006FC3C4 /* NSDictionary+Store.m in Sources */,
 				9854F9F017675B0D006FC3C4 /* NSFileManager+Extensions.m in Sources */,
 				9854F9F217675B0D006FC3C4 /* NSNumber+RandomNumber.m in Sources */,
