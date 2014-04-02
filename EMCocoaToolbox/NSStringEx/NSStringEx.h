@@ -8,10 +8,11 @@
 #define EMCocoaToolbox_NSStringEx_h
 
 #import "NSString+Empty.h"
+#import "NSString+Equal.h"
 #import "NSString+FileName.h"
 #import "NSString+UTF8.h"
 #import "NSString+MD5.h"
-#import "NSString+Equal.h"
+#import "NSString+Separator.h"
 #import "NSString+UUID.h"
 
 #endif
