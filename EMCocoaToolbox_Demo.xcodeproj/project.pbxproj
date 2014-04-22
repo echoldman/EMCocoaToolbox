@@ -17,7 +17,6 @@
 		2FE72E7B176329DB00994A18 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FE72E7A176329DA00994A18 /* Default.png */; };
 		2FE72E7D176329DB00994A18 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FE72E7C176329DB00994A18 /* Default@2x.png */; };
 		2FE72E7F176329DB00994A18 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FE72E7E176329DB00994A18 /* Default-568h@2x.png */; };
-		2FE72E87176329DB00994A18 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE72E86176329DB00994A18 /* SenTestingKit.framework */; };
 		2FE72E88176329DB00994A18 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE72E68176329DA00994A18 /* UIKit.framework */; };
 		2FE72E89176329DB00994A18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE72E6A176329DA00994A18 /* Foundation.framework */; };
 		2FE72E91176329DB00994A18 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2FE72E8F176329DB00994A18 /* InfoPlist.strings */; };
@@ -49,6 +48,7 @@
 		987154F1180ED7E500BD66A5 /* NSString+UUID.m in Sources */ = {isa = PBXBuildFile; fileRef = 987154F0180ED7E500BD66A5 /* NSString+UUID.m */; };
 		98F8DD0218EC01560095EB3E /* NSString+Separator.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F8DD0118EC01560095EB3E /* NSString+Separator.m */; };
 		98F8DD0318EC01560095EB3E /* NSString+Separator.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F8DD0118EC01560095EB3E /* NSString+Separator.m */; };
+		B6CF7EA819062BFE00B2C130 /* NSObject+Steps.m in Sources */ = {isa = PBXBuildFile; fileRef = B6CF7EA619062BFE00B2C130 /* NSObject+Steps.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,8 +78,7 @@
 		2FE72E7A176329DA00994A18 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		2FE72E7C176329DB00994A18 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		2FE72E7E176329DB00994A18 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		2FE72E85176329DB00994A18 /* EMCocoaToolbox_DemoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EMCocoaToolbox_DemoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2FE72E86176329DB00994A18 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		2FE72E85176329DB00994A18 /* EMCocoaToolbox_DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EMCocoaToolbox_DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FE72E8E176329DB00994A18 /* EMCocoaToolbox_DemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EMCocoaToolbox_DemoTests-Info.plist"; sourceTree = "<group>"; };
 		2FE72E90176329DB00994A18 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2FE72E92176329DB00994A18 /* EMCocoaToolbox_DemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMCocoaToolbox_DemoTests.h; sourceTree = "<group>"; };
@@ -121,6 +120,8 @@
 		98925009179EE22F00BEB6D1 /* CGEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGEx.h; sourceTree = "<group>"; };
 		98F8DD0018EC01560095EB3E /* NSString+Separator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Separator.h"; sourceTree = "<group>"; };
 		98F8DD0118EC01560095EB3E /* NSString+Separator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Separator.m"; sourceTree = "<group>"; };
+		B6CF7EA619062BFE00B2C130 /* NSObject+Steps.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Steps.m"; sourceTree = "<group>"; };
+		B6CF7EA719062BFE00B2C130 /* NSObject+Steps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Steps.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,7 +139,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FE72E87176329DB00994A18 /* SenTestingKit.framework in Frameworks */,
 				2FE72E88176329DB00994A18 /* UIKit.framework in Frameworks */,
 				2FE72E89176329DB00994A18 /* Foundation.framework in Frameworks */,
 			);
@@ -172,7 +172,7 @@
 			isa = PBXGroup;
 			children = (
 				2FE72E65176329DA00994A18 /* EMCocoaToolbox_Demo.app */,
-				2FE72E85176329DB00994A18 /* EMCocoaToolbox_DemoTests.octest */,
+				2FE72E85176329DB00994A18 /* EMCocoaToolbox_DemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -183,7 +183,6 @@
 				2FE72E68176329DA00994A18 /* UIKit.framework */,
 				2FE72E6A176329DA00994A18 /* Foundation.framework */,
 				2FE72E6C176329DA00994A18 /* CoreGraphics.framework */,
-				2FE72E86176329DB00994A18 /* SenTestingKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -301,6 +300,8 @@
 		9854F9D617675B0D006FC3C4 /* NSObjectEx */ = {
 			isa = PBXGroup;
 			children = (
+				B6CF7EA719062BFE00B2C130 /* NSObject+Steps.h */,
+				B6CF7EA619062BFE00B2C130 /* NSObject+Steps.m */,
 				9854F9D717675B0D006FC3C4 /* NSObject+Valid.h */,
 				9854F9D817675B0D006FC3C4 /* NSObject+Valid.m */,
 				9854F9D917675B0D006FC3C4 /* NSObjectEx.h */,
@@ -384,8 +385,8 @@
 			);
 			name = EMCocoaToolbox_DemoTests;
 			productName = EMCocoaToolbox_DemoTests;
-			productReference = 2FE72E85176329DB00994A18 /* EMCocoaToolbox_DemoTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productReference = 2FE72E85176329DB00994A18 /* EMCocoaToolbox_DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -394,6 +395,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = EM;
+				LastTestingUpgradeCheck = 0510;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = Echoldman;
 			};
@@ -471,6 +473,7 @@
 				9854F9F617675B0D006FC3C4 /* NSString+Empty.m in Sources */,
 				9854F9F817675B0D006FC3C4 /* NSString+Equal.m in Sources */,
 				9854F9FA17675B0D006FC3C4 /* NSString+FileName.m in Sources */,
+				B6CF7EA819062BFE00B2C130 /* NSObject+Steps.m in Sources */,
 				9854F9FC17675B0D006FC3C4 /* NSString+MD5.m in Sources */,
 				9854F9FE17675B0D006FC3C4 /* NSString+UTF8.m in Sources */,
 				9854FA0017675B0D006FC3C4 /* NSTimer+Block.m in Sources */,
@@ -612,13 +615,13 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EMCocoaToolbox_Demo/EMCocoaToolbox_Demo-Prefix.pch";
 				INFOPLIST_FILE = "EMCocoaToolbox_DemoTests/EMCocoaToolbox_DemoTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
 		};
@@ -629,13 +632,13 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EMCocoaToolbox_Demo/EMCocoaToolbox_Demo-Prefix.pch";
 				INFOPLIST_FILE = "EMCocoaToolbox_DemoTests/EMCocoaToolbox_DemoTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};

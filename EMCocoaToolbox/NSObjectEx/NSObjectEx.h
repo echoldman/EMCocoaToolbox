@@ -7,6 +7,7 @@
 #ifndef EMCocoaToolbox_NSObjectEx_h
 #define EMCocoaToolbox_NSObjectEx_h
 
+#import "NSObject+Steps.h"
 #import "NSObject+Valid.h"
 
 #endif
