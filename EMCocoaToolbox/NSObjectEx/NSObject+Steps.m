@@ -76,7 +76,7 @@ static inline id insureContainerInStep(id root, id step, id typeStep)
     }
     
     if (!isMutableContainer(container)) {
-        container = [container mutableCopy];
+        container = [[container mutableCopy] autorelease];
         setObjectInStep(root, step, container);
         return container;
     }
@@ -144,7 +144,7 @@ static inline BOOL isMutableContainer(id container)
             root = self;
         }
         else {
-            root = [self mutableCopy];
+            root = [[self mutableCopy] autorelease];
         }
     }
     else {
