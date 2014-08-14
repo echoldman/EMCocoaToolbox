@@ -14,6 +14,23 @@ static inline id insureContainerInStep(id root, id step, id typeStep);
 static inline id makeContainerByTypeStep(id typeStep);
 static inline BOOL isMutableContainer(id container);
 
+inline NSArray *EMSteps(NSObject *firstStep, ...)
+{
+    NSMutableArray *steps = [NSMutableArray arrayWithCapacity:8];
+    [steps addObject:firstStep];
+    
+    va_list args;
+    id arg;
+    
+    va_start(args, firstStep);
+    while ((arg = va_arg(args, id))) {
+        [steps addObject:arg];
+    }
+    va_end(args);
+    
+    return [NSArray arrayWithArray:steps];
+}
+
 static inline id objectInStep(id container, id step)
 {
     id result;

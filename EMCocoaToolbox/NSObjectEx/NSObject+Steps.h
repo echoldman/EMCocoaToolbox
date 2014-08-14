@@ -6,6 +6,9 @@
 
 #import <Foundation/Foundation.h>
 
+#define N(n) [NSNumber numberWithInteger:n]
+NSArray *EMSteps(NSObject *firstStep, ...);
+
 @interface NSObject (Steps)
 
 - (id)objectInSteps:(NSArray *)steps;
