@@ -8,6 +8,8 @@
 
 @interface NSObject (Valid)
 
++ (BOOL)isValid:(id)object;
++ (BOOL)isInvalid:(id)object;
 + (BOOL)isValid:(id)object forClass:(id)aClass;
 + (BOOL)isInvalid:(id)object forClass:(id)aClass;
 
