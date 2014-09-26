@@ -10,29 +10,29 @@
 	<string>EMCocoaToolbox_Demo</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>F3E05B88-5A61-434A-B5F0-3650B223B590</key>
+		<key>68ABA118D2F4AECA726503BA506CA04D819B4CE5</key>
 		<string>https://github.com/echoldman/EMCocoaToolbox.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>EMCocoaToolbox_Demo.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>F3E05B88-5A61-434A-B5F0-3650B223B590</key>
+		<key>68ABA118D2F4AECA726503BA506CA04D819B4CE5</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/echoldman/EMCocoaToolbox.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>F3E05B88-5A61-434A-B5F0-3650B223B590</string>
+	<string>68ABA118D2F4AECA726503BA506CA04D819B4CE5</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>F3E05B88-5A61-434A-B5F0-3650B223B590</string>
+			<string>68ABA118D2F4AECA726503BA506CA04D819B4CE5</string>
 			<key>IDESourceControlWCCName</key>
 			<string>EMCocoaToolbox</string>
 		</dict>

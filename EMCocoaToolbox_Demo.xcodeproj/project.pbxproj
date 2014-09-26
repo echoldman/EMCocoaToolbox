@@ -35,6 +35,7 @@
 		9854F9F517675B0D006FC3C4 /* NSObject+Valid.m in Sources */ = {isa = PBXBuildFile; fileRef = 9854F9D817675B0D006FC3C4 /* NSObject+Valid.m */; };
 		9854FA0017675B0D006FC3C4 /* NSTimer+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 9854F9E817675B0D006FC3C4 /* NSTimer+Block.m */; };
 		9854FA0117675B0D006FC3C4 /* NSTimer+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 9854F9E817675B0D006FC3C4 /* NSTimer+Block.m */; };
+		B61B29BD19A4925100A8BB5B /* EMCocoaToolbox_NSObjectEx_TestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = B61B29BC19A4925100A8BB5B /* EMCocoaToolbox_NSObjectEx_TestCase.m */; };
 		B6BF3414192DCF990082DCE1 /* NSString+Empty.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BF3404192DCF990082DCE1 /* NSString+Empty.m */; };
 		B6BF3415192DCF990082DCE1 /* NSString+Equal.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BF3406192DCF990082DCE1 /* NSString+Equal.m */; };
 		B6BF3416192DCF990082DCE1 /* NSString+FileName.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BF3408192DCF990082DCE1 /* NSString+FileName.m */; };
@@ -100,6 +101,8 @@
 		9854F9E817675B0D006FC3C4 /* NSTimer+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Block.m"; sourceTree = "<group>"; };
 		9854F9E917675B0D006FC3C4 /* NSTimerEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSTimerEx.h; sourceTree = "<group>"; };
 		98925009179EE22F00BEB6D1 /* CGEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGEx.h; sourceTree = "<group>"; };
+		B61B29BB19A4925100A8BB5B /* EMCocoaToolbox_NSObjectEx_TestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EMCocoaToolbox_NSObjectEx_TestCase.h; path = NSObjectEx/EMCocoaToolbox_NSObjectEx_TestCase.h; sourceTree = "<group>"; };
+		B61B29BC19A4925100A8BB5B /* EMCocoaToolbox_NSObjectEx_TestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EMCocoaToolbox_NSObjectEx_TestCase.m; path = NSObjectEx/EMCocoaToolbox_NSObjectEx_TestCase.m; sourceTree = "<group>"; };
 		B6BF3403192DCF990082DCE1 /* NSString+Empty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Empty.h"; sourceTree = "<group>"; };
 		B6BF3404192DCF990082DCE1 /* NSString+Empty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Empty.m"; sourceTree = "<group>"; };
 		B6BF3405192DCF990082DCE1 /* NSString+Equal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Equal.h"; sourceTree = "<group>"; };
@@ -213,6 +216,8 @@
 			children = (
 				2FE72E92176329DB00994A18 /* EMCocoaToolbox_DemoTests.h */,
 				2FE72E93176329DB00994A18 /* EMCocoaToolbox_DemoTests.m */,
+				B61B29BB19A4925100A8BB5B /* EMCocoaToolbox_NSObjectEx_TestCase.h */,
+				B61B29BC19A4925100A8BB5B /* EMCocoaToolbox_NSObjectEx_TestCase.m */,
 				2FE72E8D176329DB00994A18 /* Supporting Files */,
 			);
 			path = EMCocoaToolbox_DemoTests;
@@ -493,6 +498,7 @@
 				9854F9F317675B0D006FC3C4 /* NSNumber+RandomNumber.m in Sources */,
 				9854F9F517675B0D006FC3C4 /* NSObject+Valid.m in Sources */,
 				9854FA0117675B0D006FC3C4 /* NSTimer+Block.m in Sources */,
+				B61B29BD19A4925100A8BB5B /* EMCocoaToolbox_NSObjectEx_TestCase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

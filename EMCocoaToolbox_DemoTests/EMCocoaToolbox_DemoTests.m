@@ -26,7 +26,7 @@
 
 - (void)testExample
 {
-    XCTFail(@"Unit tests are not implemented yet in EMCocoaToolbox_DemoTests");
+    // XCTFail(@"Unit tests are not implemented yet in EMCocoaToolbox_DemoTests");
 }
 
 @end
