@@ -10,7 +10,8 @@ title: EMCocoaToolbox
 NSDictionary *dict = [NSJSONSerialization JSONObjectWithData:data options:0 error:nil];
 NSString *name = [dict objectInSteps:S(@"result", @"items", N(4), @"user", @"name")];
 ```
-如果不能保证路径里所包含的对象可以访问到，可以使用  safeObjectInSteps 方法，当不能够找到时，该方法会返回 nil。
+如果不能保证路径里所包含的对象可以访问到，可以使用  safeObjectInSteps 方法。当不能够找到时，该方法会返回 nil。
+
 设置对象的代码如下：
 
 ```objc
